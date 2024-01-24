@@ -2,7 +2,7 @@ const person = {
  firstName: 'Grace',
  lastName: 'Hopper',
  age: 89,
- fullName: () => { return this.firstName + ' ' + this.lastName }
+ fullName: () => { return person.firstName + ' ' + this.lastName }
 }
 
 let x = person.fullName();
